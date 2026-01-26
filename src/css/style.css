@@ -1,8 +1,13 @@
 :root{
+    --white: #FFFFFF;
+    --grey: #D8D8D8;
+    --black: #000000;
     --text-main-color: #FFFFFF;
     --text-secundary-color: #BBC0FF;
+    --text-inactive-color: #7078C9;
     --background-color: #0E1323;
     --card-color: #1C204B;
+    --card-active-color: #33397A;
     --user-card-color: #5747EA;
     --work-main-color: #FF8B64;
     --play-main-color: #55C2E6;
@@ -12,3 +17,51 @@
     --self-care-main-color: #F1C75B;
 }
 
+.text-preset-1{
+    font-size: 5.6rem;
+    font-weight: 300;
+    line-height: 6.6rem;
+    letter-spacing: 0;
+}
+
+.text-preset-2{
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4.7rem;
+    letter-spacing: 0;
+}
+
+.text-preset-3{
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 3.8rem;
+    letter-spacing: 0;
+}
+
+.text-preset-4{
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 2.8rem;
+    letter-spacing: 0;
+}
+
+.text-preset-5-regular{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    letter-spacing: 0;
+}
+
+.text-preset-5-medium{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+    letter-spacing: 0;
+}
+
+.text-preset-6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0;
+}
