@@ -68,3 +68,55 @@
 
 
 
+body{
+    display: grid;
+    place-items: center;
+    background-color: var(--background-color);
+    margin: 8.1rem 2.4rem;
+    color: var(--text-main-color);
+}
+
+.main-container{
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: 1fr;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-color);
+    border-radius: 1.5rem;
+}
+
+.user-container__user-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+    padding: 3.2rem;
+    background-color: var(--user-card-color);
+    border-radius: 1.5rem;
+}
+
+.user-container__user-info__user-image{
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+    border: solid 0.3rem var(--grey);
+}
+
+.user-container__user-info__username{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+
+.user-contaier__period{
+    display: flex;
+    justify-content: space-around;
+    padding: 2.4rem 1rem;
+    
+
+}
