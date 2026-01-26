@@ -1,4 +1,4 @@
-:root{
+:root {
     --white: #FFFFFF;
     --grey: #D8D8D8;
     --black: #000000;
@@ -17,49 +17,49 @@
     --self-care-main-color: #F1C75B;
 }
 
-.text-preset-1{
+.text-preset-1 {
     font-size: 5.6rem;
     font-weight: 300;
     line-height: 6.6rem;
     letter-spacing: 0;
 }
 
-.text-preset-2{
+.text-preset-2 {
     font-size: 4rem;
     font-weight: 300;
     line-height: 4.7rem;
     letter-spacing: 0;
 }
 
-.text-preset-3{
+.text-preset-3 {
     font-size: 3.2rem;
     font-weight: 300;
     line-height: 3.8rem;
     letter-spacing: 0;
 }
 
-.text-preset-4{
+.text-preset-4 {
     font-size: 2.4rem;
     font-weight: 300;
     line-height: 2.8rem;
     letter-spacing: 0;
 }
 
-.text-preset-5-regular{
+.text-preset-5-regular {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.1rem;
     letter-spacing: 0;
 }
 
-.text-preset-5-medium{
+.text-preset-5-medium {
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 2.1rem;
     letter-spacing: 0;
 }
 
-.text-preset-6{
+.text-preset-6 {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.8rem;
@@ -67,56 +67,112 @@
 }
 
 
-
-body{
+body {
     display: grid;
     place-items: center;
     background-color: var(--background-color);
-    margin: 8.1rem 2.4rem;
+    padding: 8.1rem 2.4rem;
     color: var(--text-main-color);
+    min-height: 100dvh;
 }
 
-.main-container{
+.secondary-color {
+    color: var(--text-secundary-color);
+}
+
+.main-container {
     display: grid;
+    place-items: center;
     grid-template-rows: repeat(7, 1fr);
     grid-template-columns: 1fr;
+    gap: 2.4rem;
+    width: 100%;
 }
 
-.user-container{
+.user-container {
     display: flex;
     flex-direction: column;
     background-color: var(--card-color);
     border-radius: 1.5rem;
+    width: 100%;
 }
 
-.user-container__user-info{
+.user-container__user-info {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 2.4rem;
     padding: 3.2rem;
     background-color: var(--user-card-color);
     border-radius: 1.5rem;
+    min-height: 13.3rem;
 }
 
-.user-container__user-info__user-image{
+.user-container__user-info__user-image {
     width: 6.4rem;
     height: 6.4rem;
     border-radius: 50%;
     border: solid 0.3rem var(--grey);
 }
 
-.user-container__user-info__username{
+.user-container__user-info__username {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
 }
 
 
-.user-contaier__period{
+.user-contaier__period {
+    min-height: 7rem;
     display: flex;
-    justify-content: space-around;
-    padding: 2.4rem 1rem;
-    
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 0.3rem;
 
+}
+
+
+.todo {
+    z-index: -1;
+    width: 100%;
+
+}
+
+.svg-section {
+    display: flex;
+    justify-content: flex-end;
+    height: 3.8rem;
+}
+
+.svg-section svg {
+    z-index: -1;
+}
+
+.todo__time-section {
+    background-color: var(--card-color);
+    min-height: 16rem;
+}
+
+.work-card {
+    background-color: var(--work-main-color);
+}
+
+.play-card {
+    background-color: var(--play-main-color);
+}
+
+.study-card {
+    background-color: var(--study-main-color);
+}
+
+.exercise-card {
+    background-color: var(--exercise-main-color);
+}
+
+.social-card {
+    background-color: var(--social-main-color);
+}
+
+.self-care-card {
+    background-color: var(--self-care-main-color);
 }
