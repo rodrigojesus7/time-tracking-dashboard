@@ -151,7 +151,10 @@ body {
 }
 
 .svg-section {
+    overflow: hidden;
     display: flex;
+    position: relative;
+    align-items: ;
     justify-content: flex-end;
     height: 3.8rem;
     padding-right: 1.5rem;
@@ -160,7 +163,6 @@ body {
 .todo__time-section {
     display: flex;
     flex-direction: column;
-    position: relative;
     background-color: var(--card-color);
     border-radius: 1.5rem;
     padding: 2.75rem 2.4rem;
