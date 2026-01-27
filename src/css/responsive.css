@@ -84,6 +84,11 @@
         height: 100%;
     }
 
+    .user-container__user-info__user-image {
+        box-shadow: 0 0.4rem 0.4rem #00000080;
+    }
+
+
     .user-container__user-info__username__name{
         font-size: 4rem;
         font-weight: 300;
