@@ -1,0 +1,49 @@
+@media (min-width: 48rem){
+
+    body {
+        padding: 8.1rem 7.8rem;
+
+    }
+
+    .main-container {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "user user user"
+            "work play study"
+            "exercise social selfCare"
+        ;
+        gap: 2.4rem;
+        width: 100%;
+    }
+
+    .user-contaier__period{
+        gap: 7rem;
+    }
+
+    .svg-section {
+        height: 3.3rem;
+
+    }
+
+    .todo__time-section {
+        padding: 2.4rem;
+        gap: 1.6rem
+    }
+
+    .todo__time-section--statistics {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: right;
+        gap: 0.8rem;
+    }
+
+    .todo__time-section--statistics__hours{
+        font-size: 5.6rem;
+        font-weight: 300;
+        line-height: 6.6rem;
+        letter-spacing: 0;
+    }
+}
