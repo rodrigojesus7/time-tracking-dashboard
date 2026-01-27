@@ -146,6 +146,7 @@ body {
 
 .user-contaier__period p:hover {
     cursor: pointer;
+    color: var(--text-main-color);
 }
 
 
