@@ -26,7 +26,7 @@ let lastTimeStatistics = document.querySelectorAll('.last-time-statistic')
 
 
 async function getData() {
-    const file = ('../data.json')
+    const file = ('./data.json')
     const response = await fetch(file)
     const data = await response.json()
     return data
